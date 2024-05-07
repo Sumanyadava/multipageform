@@ -38,7 +38,7 @@ function App() {
     <>
       <div className="body h-[100vh] w-[100vw] flex justify-center items-center flex-col ">
         <h1 className="p-8 text-3xl underline ">{arr[count]}</h1>
-        <div className="main bg-red-200 h-[50vh] w-[50%] flex justify-center items-center rounded-lg">
+        <div className="main bg-red-200 h-[50vh] w-[70%] flex justify-center items-center rounded-lg">
           {count === 0 ? (
             <FormOne formData={formData} setFormData={setFormData}  />
           ) : count === 1 ? (
